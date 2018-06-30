@@ -23,4 +23,4 @@ spring:
 #    publisher-confirms: true
 #    virtual-host: /
 
-test: abc123
+test: abc
