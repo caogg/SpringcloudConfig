@@ -6,5 +6,5 @@ turbine:
     cluster-config: default
   cluster-name-expression: new String("default")
   app-config: user-service , blog-service
-#  instanceUrlSuffix:
-#    default: /hystrix.stream
+  instanceUrlSuffix:
+    default: /hystrix.stream
