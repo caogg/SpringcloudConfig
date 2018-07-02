@@ -15,9 +15,9 @@ spring:
 
 eureka:
   instance:
-      metadata-map:
-        user.name: ${spring.security.user.name}
-        user.password: ${spring.security.user.password}
+    metadata-map:
+      user.name: "client"
+      user.password: "client"
 
 logging:
   file: "logs/admin-service-pro.log"
