@@ -13,12 +13,6 @@ spring:
         password: 123456
 
 
-eureka:
-  instance:
-    metadata-map:
-      user.name: admin
-      user.password: 123456
-
 logging:
   file: "logs/admin-service-pro.log"
 
