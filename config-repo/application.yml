@@ -17,6 +17,5 @@ management:
       exposure:
         include: '*'
   endpoint:
-        health:
-          show-details: always
-
+    health:
+      show-details: always
